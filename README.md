@@ -10,6 +10,10 @@ A comprehensive project deploying a sample web application using Terraform EKS m
 - CloudWatch Observability for real-time monitoring.
 
 ## Architecture
+
+### Target architecture
+![Architecture Diagram](/eks-architecture.png "Architecture Diagram")
+
 ### Target technology stack 
 - **Amazon EKS (Elastic Kubernetes Service):** EKS clusters are provisioned and auto-scaling node groups are used to efficiently handle workloads.
 - **VPC** A multi-AZ VPC with private and public subnets ensures secure, scalable networking for the EKS deployment.
@@ -33,14 +37,11 @@ A comprehensive project deploying a sample web application using Terraform EKS m
 - CloudWatch Observability for real-time logs, metrics, and performance monitoring.
 - AWS Load Balancer Controller for automated ALB/NLB provisioning and traffic management.
 
-###𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐧𝐠 𝐀𝐦𝐚𝐳𝐨𝐧 𝐄𝐊𝐒 𝐂𝐥𝐨𝐮𝐝𝐖𝐚𝐭𝐜𝐡 𝐂𝐨𝐧𝐭𝐚𝐢𝐧𝐞𝐫 𝐈𝐧𝐬𝐢𝐠𝐡𝐭𝐬:
+### 𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐧𝐠 𝐀𝐦𝐚𝐳𝐨𝐧 𝐄𝐊𝐒 𝐂𝐥𝐨𝐮𝐝𝐖𝐚𝐭𝐜𝐡 𝐂𝐨𝐧𝐭𝐚𝐢𝐧𝐞𝐫 𝐈𝐧𝐬𝐢𝐠𝐡𝐭𝐬:
 - Tracking CPU and memory utilization per pod.
 - Integrating logs and metrics for proactive monitoring and troubleshooting.
 - Enhancing operational efficiency with real-time alerts and dashboards.
   
-### Target architecture
-![Architecture Diagram](/ecs_fargate_architecture.jpeg "Architecture Diagram")
-
 ## Key Learnings
 ✔ Terraform simplifies infrastructure as code (IaC), making EKS and VPC deployments scalable and repeatable.
 ✔ A well-architected VPC with private subnets improves security and isolation.
