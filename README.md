@@ -43,10 +43,10 @@ A comprehensive project deploying a sample web application using Terraform EKS m
 - Enhancing operational efficiency with real-time alerts and dashboards.
   
 ## Key Learnings
-✔ Terraform simplifies infrastructure as code (IaC), making EKS and VPC deployments scalable and repeatable.
-✔ A well-architected VPC with private subnets improves security and isolation.
-✔ EKS Blueprints Add-ons optimize networking (VPC-CNI), observability (CloudWatch), AWS Load Balancer controller.
-✔ CloudWatch Container Insights offers real-time monitoring for proactive issue resolution.
+- Terraform simplifies infrastructure as code (IaC), making EKS and VPC deployments scalable and repeatable.<br>
+- A well-architected VPC with private subnets improves security and isolation.<br>
+- EKS Blueprints Add-ons optimize networking (VPC-CNI), observability (CloudWatch), AWS Load Balancer controller.<br>
+- CloudWatch Container Insights offers real-time monitoring for proactive issue resolution.
 
 ## Conclusion
 This project demonstrates how to architect and deploy a production-ready Kubernetes environment on AWS using Terraform, with a strong focus on scalability, security, observability, and operational excellence. By leveraging Terraform EKS modules, VPC modules, and curated add-ons like VPC-CNI, CloudWatch, and the AWS Load Balancer Controller, we ensured a streamlined deployment experience and a resilient infrastructure foundation.
